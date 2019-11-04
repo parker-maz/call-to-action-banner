@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%
+}
+
+.btn-big {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 95%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
