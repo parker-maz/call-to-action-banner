@@ -24,6 +24,7 @@ body {
 
 .robot {
   max-height: 14em;
+  padding: 0 .5em .5em 0;
 }
 
 .banner {
