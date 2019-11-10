@@ -39,7 +39,7 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
   width: 45em;
-  max-width: 95%;
+  max-width: 92%;
   justify-content: space-around;
 }
 
