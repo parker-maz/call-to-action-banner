@@ -39,7 +39,7 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
   width: 45em;
-  max-width: 94%;
+  max-width: 95%;
   justify-content: space-around;
 }
 
@@ -74,7 +74,7 @@ p {
   border-radius: 5px;
   background-color: #333;
   padding: .8em;
-  margin: .3em 0;
+  margin: .3em 0 .4em;
 }
 
 .btn:hover {
