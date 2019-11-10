@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -21,6 +21,10 @@ body {
   width: 100%;
 }
 
+.robot {
+  padding-right: 2rem;
+}
+
 .banner {
   max-height: 500px;
   overflow: hidden;
@@ -33,10 +37,37 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  width: 95%;
+  width: 45em;
+  max-width: 95%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  margin: 0;
+  max-width: 7em;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 18em;
+  line-height: 1.5;
+  margin: .5em 0;
+}
+
+.btn {
+  display: inline-block;
+  width: 6.32em;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #333;
+  padding: .8em;
 }
