@@ -23,7 +23,6 @@ body {
 }
 
 .robot {
-  padding-right: 3em;
   max-height: 14em;
 }
 
@@ -45,6 +44,7 @@ body {
 }
 
 .content {
+  padding-left: 3em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
